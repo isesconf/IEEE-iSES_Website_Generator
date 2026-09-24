@@ -43,6 +43,11 @@ pageTitle: "iSES"
               </div>
             </div>
 
+            {% if sp.abstract_html and sp.abstract_html != "" %}
+              <div class="section-label">Abstract</div>
+              <div class="prose">{{ sp.abstract_html | safe }}</div>
+            {% endif %}
+
             <div class="section-label">Speaker Biography</div>
             <div class="prose">{{ sp.bio_html | safe }}</div>
 
