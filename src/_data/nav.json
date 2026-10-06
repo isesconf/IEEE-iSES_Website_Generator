@@ -73,6 +73,18 @@
       {
         "label": "Initial Manuscript Information",
         "url": "/manuscript-information.html"
+      },
+       {
+        "label": "PDF Express Instructions",
+        "url": "/pdf-express.html"
+      },
+      {
+        "label": "Final Camera-ready Submission Instructions",
+        "url": "/camera-ready.html"
+      },
+      {
+        "label": "Final Camera-ready Submission Link",
+        "url": "/submission-link.html"
       }
     ]
   },
