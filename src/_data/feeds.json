@@ -1,6 +1,18 @@
 {
   "announcements": [
     {
+  "date": "2026-10-05",
+  "text": "Camera-ready submission guidelines are now available",
+  "url": "/iSES_2026_Website/camera-ready.html",
+  "tag": "Update"
+},
+{
+  "date": "2026-10-05",
+  "text": "Camera-ready submission link is now available",
+  "url": "/iSES_2026_Website/submission-link.html",
+  "tag": "Update"
+},
+    {
       "date": "2026-08-19",
       "text": "Submission deadline extended to August 31, 2026 - Hard Deadline",
       "url": "/iSES_2026_Website/important-dates.html",
@@ -23,20 +35,20 @@
       "text": "Website is live",
       "url": "",
       "tag": "Update"
-    },
-    {
-      "date": "2026-06-07",
-      "text": "Submission deadline extended to July 6, 2026",
-      "url": "/iSES_2026_Website/important-dates.html",
-      "tag": "Update"
     }
   ],
   "important": [
     {
-      "date": "2026-08-03",
-      "text": "Submission deadline extended to August 31, 2026 - Hard Deadline",
-      "url": "/iSES_2026_Website/important-dates.html",
-      "tag": "Update"
-    }
+  "date": "2026-10-05",
+  "text": "Camera-ready submission guidelines are now available",
+  "url": "/iSES_2026_Website/camera-ready.html",
+  "tag": "Update"
+}, 
+{
+  "date": "2026-10-05",
+  "text": "Camera-ready submission link is now available",
+  "url": "/iSES_2026_Website/submission-link.html",
+  "tag": "Update"
+}
   ]
 }
