@@ -31,6 +31,30 @@
   },
   "payment": {
     "portalUrl": "",
+    "foreignDelegateNote": "For foreign delegates, the respective USD registration amounts have been converted into INR based on the RBI exchange rate of ₹96.6230 per USD.",
+
+"foreignDelegateLinks": [
+  {
+    "label": "Authors (IEEE Member)",
+    "usdAmount": "$354",
+    "url": "https://u.payu.in/PAYUMN/Drfh36ApSvX5"
+  },
+  {
+    "label": "Authors (Non-Member)",
+    "usdAmount": "$425",
+    "url": "https://u.payu.in/PAYUMN/cJYCOkKZqRBz"
+  },
+  {
+    "label": "Non-Authors/Delegates/Additional-paper",
+    "usdAmount": "$195",
+    "url": "https://u.payu.in/PAYUMN/eruhj6CpuHRb"
+  },
+  {
+    "label": "Tutorial 2 days",
+    "usdAmount": "$36",
+    "url": "https://u.payu.in/PAYUMN/GJGChkQZ6V29"
+  }
+],
     "bank": {
       "accountNo": "132822010001627",
       "accountHolder": "iSES NIT Goa",

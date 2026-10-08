@@ -6,9 +6,10 @@
       "title": "Call for Papers",
       "pageHref": "cfp.html",
       "dates": {
-        "Submission": "July 06, 2026",
-        "Acceptance": "August 15, 2026",
-        "Final Submission": "September 15, 2026"
+        "Submission": "August 31, 2026",
+        "First Round Acceptance": "August 30, 2026",
+        "Second Round Acceptance": "September 30, 2026",
+        "Final/Camera Ready Submission": "October 15, 2026"
       }
     },
     {
@@ -18,31 +19,6 @@
         "Paper Submission": "",
         "Acceptance": "",
         "Final Submission": ""
-      }
-    },
-    {
-      "title": "Call for Research Demo Session (RDS)",
-      "pageHref": "",
-      "dates": {
-        "Submission": "",
-        "Acceptance": "",
-        "Final Submission": ""
-      }
-    },
-    {
-      "title": "Call for Student Research Forum (SRF)",
-      "pageHref": "",
-      "dates": {
-        "Submission": "",
-        "Acceptance": "",
-        "Final Submission": ""
-      }
-    },
-    {
-      "title": "Call for Pre-Conference Tutorials (PCT)",
-      "pageHref": "",
-      "dates": {
-        "Tutorial Dates": ""
       }
     }
   ]

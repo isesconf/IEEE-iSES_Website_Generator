@@ -28,7 +28,7 @@ bodyClass: "homepage is-preload"
   At least one of the authors has to register before <strong>{{ registration.deadlines.authorRegistrationDisplay }}</strong>
   at the full <strong>AUTHOR</strong> rate (for AUTHORS of regular papers/posters/RDS/SRF) and present the paper at the symposium.
   <br/>
-  A student who is an author and presenter of an accepted paper <strong>MUST</strong> register as an <strong>AUTHOR</strong>.
+  A student who is an author and presenter of an accepted paper <strong>MUST</strong> register as an <strong>STUDENT</strong> provided the same paper ID is registered at full author rate by  Co-authors.
   <br/>
   Non-presenting co-authors may register at the <strong>Delegate</strong> rate.
   <br/>
@@ -124,6 +124,45 @@ bodyClass: "homepage is-preload"
 <h2 class="inline-8ae97b1536">
   Payment Portal &amp; Bank Details
 </h2>
+<br/>
+
+<!-- Foreign Delegate Payment Links -->
+<div class="payment-box">
+
+  <p class="inline-69fcc6852c">
+    Payment Links for Foreign Delegates
+  </p>
+
+  <p class="inline-308562d4cf">
+    {{ registration.payment.foreignDelegateNote }}
+  </p>
+
+  <table border="1" cellpadding="10" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th class="inline-c454f70ed0">Registration Category</th>
+        <th class="inline-c454f70ed0">Fee</th>
+        <th class="inline-c454f70ed0">Payment Link</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {% for item in registration.payment.foreignDelegateLinks %}
+      <tr>
+        <td>{{ item.label }}</td>
+        <td>{{ item.usdAmount }}</td>
+        <td>
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+            Pay Now
+          </a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+</div>
+
 <br/>
 
 <div class="payment-box">
