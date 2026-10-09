@@ -30,39 +30,66 @@
     "tutorialFootnoteText": "The Tutorials are complimentary for registrants of the Symposium; however, a separate data filling is required at the portal."
   },
   "payment": {
-    "portalUrl": "",
-    "foreignDelegateNote": "For foreign delegates, the respective USD registration amounts have been converted into INR based on the RBI exchange rate of ₹96.6230 per USD.",
+  "portalUrl": "",
 
-"foreignDelegateLinks": [
-  {
-    "label": "Authors (IEEE Member)",
-    "usdAmount": "$354",
-    "url": "https://u.payu.in/PAYUMN/Drfh36ApSvX5"
-  },
-  {
-    "label": "Authors (Non-Member)",
-    "usdAmount": "$425",
-    "url": "https://u.payu.in/PAYUMN/cJYCOkKZqRBz"
-  },
-  {
-    "label": "Non-Authors/Delegates/Additional-paper",
-    "usdAmount": "$195",
-    "url": "https://u.payu.in/PAYUMN/eruhj6CpuHRb"
-  },
-  {
-    "label": "Tutorial 2 days",
-    "usdAmount": "$36",
-    "url": "https://u.payu.in/PAYUMN/GJGChkQZ6V29"
-  }
-],
-    "bank": {
-      "accountNo": "132822010001627",
-      "accountHolder": "iSES NIT Goa",
-      "ifsc": "UBIN0913286",
-      "bankName": "Union Bank of India",
-      "bankAddress": "Goa College of Engineering, SC04 SC10, New Shopping Complex, Farmagudi, Ponda, North Goa, Goa - 403401"
+  "indiaDelegateNote": "Participants from India may use the appropriate payment link below to complete their registration payment.",
+
+  "indiaDelegateLinks": [
+    {
+      "label": "Authors (IEEE Member)",
+      "amount": "₹ 16,520",
+      "url": "https://u.payu.in/PAYUMN/ZJ9CmkgMcXVp"
+    },
+    {
+      "label": "Authors (Non-Member)",
+      "amount": "₹ 18,880",
+      "url": "https://u.payu.in/PAYUMN/IreLovxLl0bW"
+    },
+    {
+      "label": "Non-Authors/Delegates/Additional-paper",
+      "amount": "₹ 8,260",
+      "url": "https://u.payu.in/PAYUMN/mIliV1oXtxFF"
+    },
+    {
+      "label": "Tutorial 2 days",
+      "amount": "₹ 1,475",
+      "url": "https://u.payu.in/PAYUMN/SrwhC6gBYGkd"
     }
-  },
+  ],
+
+  "foreignDelegateNote": "For foreign delegates, the respective USD registration amounts have been converted into INR based on the RBI exchange rate of ₹96.6230 per USD.",
+
+  "foreignDelegateLinks": [
+    {
+      "label": "Authors (IEEE Member)",
+      "usdAmount": "$354",
+      "url": "https://u.payu.in/PAYUMN/Drfh36ApSvX5"
+    },
+    {
+      "label": "Authors (Non-Member)",
+      "usdAmount": "$425",
+      "url": "https://u.payu.in/PAYUMN/cJYCOkKZqRBz"
+    },
+    {
+      "label": "Non-Authors/Delegates/Additional-paper",
+      "usdAmount": "$195",
+      "url": "https://u.payu.in/PAYUMN/eruhj6CpuHRb"
+    },
+    {
+      "label": "Tutorial 2 days",
+      "usdAmount": "$36",
+      "url": "https://u.payu.in/PAYUMN/GJGChkQZ6V29"
+    }
+  ],
+
+  "bank": {
+    "accountNo": "132822010001627",
+    "accountHolder": "iSES NIT Goa",
+    "ifsc": "UBIN0913286",
+    "bankName": "Union Bank of India",
+    "bankAddress": "Goa College of Engineering, SC04 SC10, New Shopping Complex, Farmagudi, Ponda, North Goa, Goa - 403401"
+  }
+},
   "contacts": [
     { "name": "Prof. Shivanaryan Patidar", "email": "" },
     { "name": "Mrs. Geetha S. Shet", "email": "" }
