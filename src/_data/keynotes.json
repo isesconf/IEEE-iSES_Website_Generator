@@ -48,5 +48,17 @@
   "title": "Title awaited",
   "abstract_html": "<p>Abstract awaited.</p>",
   "bio_html": "<p>Prof. Amit Patra, received the B.Tech., M.Tech. and Ph.D. degrees from the Indian Institute of Technology, Kharagpur in 1984, 1986 and 1990 respectively. During 1992-93 and in 2000 he visited the Ruhr-University, Bochum, Germany as a Post-doctoral Fellow of the Alexander von Humboldt Foundation. He joined the Department of Electrical Engineering, Indian Institute of Technology, Kharagpur in 1987 as a faculty member, and became a Professor in the Higher Academic Grade Pay in 2009. During 2018-19 he visited the University of Maryland, Baltimore County as a Senior Visiting Research Scientist and between 2019-22, he was recognized as an Honorary Adjunct Professor.</p><p>He was the Professor In-Charge, Advanced VLSI Design Lab, at IIT Kharagpur during 2004-07. Between 2007 and 2013 he served as the Dean (Alumni Affairs and International Relations) at IIT Kharagpur. Between 2013-15 he served in a voluntary role of the Executive Advisor, Institutional Development at IIT Kharagpur. From April, 2020 to December 2021, he was the Professor In- Charge, Rajarhat Research Park and from July, 2021 to May, 2024 he served as the Deputy Director of IIT Kharagpur. Currently, he is serving as the Director of IIT (BHU), Varanasi.</p>"
+},
+{
+  "id": "nishit-gupta",
+  "name": "Nishit Gupta",
+  "affiliation": [
+    "Scientist 'E', Ministry of Electronics & Information Technology (MeitY), Government of India",
+    "Director (Design), India Semiconductor Mission"
+  ],
+  "photo": "/images/KeynoteSpeakers/NishitGupta.jpeg",
+  "title": "Title awaited",
+  "abstract_html": "<p>Abstract awaited.</p>",
+  "bio_html": "<p>Nishit Gupta is working as Scientist D in R&D in Electronics Group at Ministry of Electronics & information Technology, Government of India since 2014 wherein he is involved in broadening the Microelectronics research base across the country. He also holds an additional charge of Director (Technical) at India Semiconductor Mission setup under Digital India Corporation of MeitY for coordinating Semiconductor related activities for Government of India. Before joining MeitY, he has worked as Technical Leader in ‘Technology-R&D Group’ at ST Microelectronics for around a decade, wherein he was involved in developing and promoting System Level Methodologies around Transaction Level Modelling using SystemC, and SoC Architecture Analysis & Performance Evaluation at an early design phase. For his activities at MeitY, he primarily deals in evolving programmes and schemes to support domestic start-ups and academic in order to catalyse the fabless chip design ecosystem in the country.</p>"
 }
 ]

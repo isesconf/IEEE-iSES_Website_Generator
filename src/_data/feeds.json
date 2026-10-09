@@ -1,6 +1,12 @@
 {
   "announcements": [
     {
+  "date": "2026-10-09",
+  "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
+  "url": "https://forms.gle/2X3peZLWazerKiHp6",
+  "tag": "Registration"
+},
+    {
   "date": "2026-10-05",
   "text": "📢 Call for Papers – Special Sessions: Submit your paper to iSES 2026 Special Sessions by October 20, 2026.",
   "url": "/iSES_2026_Website/call-for-contributions.html",
@@ -50,6 +56,12 @@
     }
   ],
   "important": [
+    {
+  "date": "2026-10-09",
+  "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
+  "url": "https://forms.gle/2X3peZLWazerKiHp6",
+  "tag": "Registration"
+},
     {
   "date": "2026-10-05",
   "text": "📢 Call for Papers – Special Sessions: Submit your paper to iSES 2026 Special Sessions by October 20, 2026.",
