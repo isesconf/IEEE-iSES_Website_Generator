@@ -2,6 +2,18 @@
   "announcements": [
     {
   "date": "2026-10-05",
+  "text": "📢 Call for Papers – Special Sessions: Submit your paper to iSES 2026 Special Sessions by October 20, 2026.",
+  "url": "/iSES_2026_Website/call-for-contributions.html",
+  "tag": "Update"
+},
+    {
+  "date": "2026-10-08",
+  "text": "Camera-ready submission link is now available",
+  "url": "/iSES_2026_Website/submission-link.html",
+  "tag": "Update"
+}, 
+    {
+  "date": "2026-10-05",
   "text": "Camera-ready submission guidelines are now available",
   "url": "/iSES_2026_Website/camera-ready.html",
   "tag": "Update"
@@ -38,6 +50,12 @@
     }
   ],
   "important": [
+    {
+  "date": "2026-10-05",
+  "text": "📢 Call for Papers – Special Sessions: Submit your paper to iSES 2026 Special Sessions by October 20, 2026.",
+  "url": "/iSES_2026_Website/call-for-contributions.html",
+  "tag": "Update"
+},
     {
   "date": "2026-10-05",
   "text": "Camera-ready submission guidelines are now available",
