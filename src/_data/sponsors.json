@@ -21,7 +21,23 @@
       "placeholder": "IETE"
     }
   ],
-  "our_sponsors": [
-    
+  
+"our_sponsors": [
+
+],
+
+"sponsorship_contact": {
+  "email": "ises2026@nitgoa.ac.in",
+  "coordinators": [
+    {
+      "name": "Dr. Vasantha M.H",
+      "phone": "8217046754"
+    },
+    {
+      "name": "Dr. Nithin Kumar Y.B",
+      "phone": "8275681684"
+    }
   ]
+}
+
 }
