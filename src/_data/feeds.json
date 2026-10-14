@@ -1,6 +1,19 @@
 {
   "announcements": [
     {
+  
+  "date": "2026-10-14",
+  "text": "🏨 Student hostel accommodation available at NIT Goa. Apply by 30th October 2026.",
+  "url": "https://forms.gle/U4xVbLPVUG3aaLQH6",
+  "tag": "Accommodation"
+},
+{
+  "date": "2026-10-14",
+  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 25th October 2026. Register now!",
+  "url": "/iSES_2026_Website/register.html",
+  "tag": "Registration"
+},
+    {
   "date": "2026-10-09",
   "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
   "url": "https://forms.gle/2X3peZLWazerKiHp6",
@@ -29,33 +42,25 @@
   "text": "Camera-ready submission link is now available",
   "url": "/iSES_2026_Website/submission-link.html",
   "tag": "Update"
-},
-    {
-      "date": "2026-08-19",
-      "text": "Submission deadline extended to August 31, 2026 - Hard Deadline",
-      "url": "/iSES_2026_Website/important-dates.html",
-      "tag": "Update"
-    },
-    {
-      "date": "2026-08-03",
-      "text": "Submission deadline extended to August 17, 2026",
-      "url": "/iSES_2026_Website/important-dates.html",
-      "tag": "Update"
-    },
-    {
-      "date": "2026-07-07",
-      "text": "Submission deadline extended to July 31, 2026",
-      "url": "/iSES_2026_Website/important-dates.html",
-      "tag": "Update"
-    },
-    {
-      "date": "2026-02-15",
-      "text": "Website is live",
-      "url": "",
-      "tag": "Update"
-    }
+}
   ],
   "important": [
+    
+
+{
+  "date": "2026-10-14",
+  "text": "🏨 Student hostel accommodation available at NIT Goa. Apply by 30th October 2026.",
+  "url": "https://forms.gle/U4xVbLPVUG3aaLQH6",
+  "tag": "Accommodation"
+},
+{
+  "date": "2026-10-14",
+  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 25th October 2026. Register now!",
+  "url": "/iSES_2026_Website/register.html",
+  "tag": "Registration"
+}
+
+,
     {
   "date": "2026-10-09",
   "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
