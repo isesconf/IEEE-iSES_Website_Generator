@@ -9,8 +9,6 @@
       "rows": [
         { "label": "Authors (IEEE Member)", "before": "$354", "after": "$384" },
         { "label": "Authors (non-member)", "before": "$425", "after": "$455" },
-        { "label": "Students (IEEE Member)", "before": "$189", "after": "$207" },
-        { "label": "Students (non-member)", "before": "$242", "after": "$266" },
         { "label": "Non-Authors/Delegates/Additional-paper", "before": "$195", "after": "$213" },
         { "label": "Tutorial 2 days (Includes food expenses, pad/pen)", "before": "$36*", "after": "$42*", "isTutorial": true }
       ]
@@ -20,8 +18,6 @@
       "rows": [
         { "label": "Authors (IEEE Member)", "before": "₹ 16,520", "after": "₹ 18,880" },
         { "label": "Authors (non-member)", "before": "₹ 18,880", "after": "₹ 21,240" },
-        { "label": "Students (IEEE Member)", "before": "₹ 5,900", "after": "₹ 7,080" },
-        { "label": "Students (non-member)", "before": "₹ 7,080", "after": "₹ 7,670" },
         { "label": "Non-Authors/Delegates/Additional-paper", "before": "₹ 8,260", "after": "₹ 9,440" },
         { "label": "Tutorial 2 days (Includes food expenses, pad/pen)", "before": "₹ 1,475*", "after": "₹ 2,065*", "isTutorial": true }
       ]
