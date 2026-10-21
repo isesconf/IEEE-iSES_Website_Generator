@@ -64,7 +64,7 @@
           "name": "Prof. Sujay Deb",
           "affiliation": "Institute Chair Professor, Department of ECE & CSE, Indraprastha Institute of Information Technology (IIIT Delhi)",
           "role": "Speaker",
-          "photo": "images/SteeringCommittee/sujayDeb.png",
+          "photo": "images/SteeringCommittee/SujayDeb.png",
           "url": "https://www.iiitd.ac.in/sdeb",
           "bio": "Prof. Sujay Deb is an Institute Chair Professor in the Department of Electronics and Communication Engineering and Computer Science and Engineering at Indraprastha Institute of Information Technology, Delhi. He received his PhD from the School of Electrical Engineering and Computer Science, Washington State University, Pullman, WA under the supervision of Dr. Partha Pratim Pande.\n\nHis research Interests are broadly in the areas of power and performance efficient, secure and reliable System-on-Chip Design, Network-on-Chip (NoC) communication fabrics, Heterogeneous System Architectures (HSA), hardware for deep learning, low cost bio-sensors for preventive healthcare. More specifically, topics of interest include: intra and inter-chip wireless interconnection, efficient and reliable routing schemes, scalable coherence protocols for many-core systems, hardware support for on-chip broadcast and multi-cast traffic, cache architectures for HSA, single chip bio potential acquisition system for preventive health-care. He also works on application of technology to chiplet architectures, healthcare, hardware security, mobile sensing etc. He is currently serving as IEEE CASS CSS Delhi section Vice Chairman. He is a senior member of IEEE."
         }
