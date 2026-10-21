@@ -10,7 +10,7 @@
           "name": "Dr. Pramod Kumar Maurya",
           "affiliation": "Scientist F, CSIR-National Institute of Oceanography (NIO), Goa",
           "role": "Speaker",
-          "photo": "images/tutorials/PramodMaurya.png",
+          "photo": "images/Tutorials/PramodMaurya.png",
           "url": "https://www.linkedin.com/in/pramod-maurya-1781536?originalSubdomain=in",
           "bio": ""
         }
@@ -28,25 +28,25 @@
   "name": "Shri Venkata Reddy Kolagatla",
   "affiliation": "Scientist-D, Centre for Development of Advanced Computing (C-DAC), Bangalore",
   "role": "Lead Speaker",
-  "photo": "images/tutorials/VenkataKolagatla.png",
+  "photo": "images/Tutorials/VenkataKolagatla.png",
   "url": "https://www.linkedin.com/in/venkata-reddy-kolagatla/",
   "bio": "Venkata Reddy Kolagatla, a Scientist-D at C-DAC Bangalore, has six years of experience in cryptography, ASIC, and SoC design. He previously worked at Synopsys India and Sandisk India, specializing in SDR/DDR memory designs. A Gold Medalist in VLSI Systems from NIT Tiruchirappalli, he also holds a B.Tech in Electronics and Communication Engineering. At C-DAC, he led key ASIC projects and is recognized for his expertise in FPGA/ASIC design and cryptography, with numerous publications to his name."
 }
 ,
         {
-          "name": "Mithun C Sriram",
+          "name": "Shri Mithun C Sriram",
           "affiliation": "C-DAC, Bangalore",
           "role": "Co-presenter",
-          "photo": "images/tutorials/mithun-sriram.jpg",
+          "photo": "images/Tutorials/mithun-sriram.jpg",
           "url": "",
           "bio": ""
         },
         
 {
-  "name": "Vivian Desalphine",
+  "name": "Shri Vivian Desalphine",
   "affiliation": "Scientist-F, C-DAC, Bangalore",
   "role": "Co-presenter",
-  "photo": "images/tutorials/Vivian.png",
+  "photo": "images/Tutorials/Vivian.png",
   "url": "",
   "bio": "Vivian Desalphine is a Scientist-F at C-DAC Bangalore with around 19 years of experience. He is currently involved in the Chips-to-Startup Programme, Design Linked Incentive, and RISC-V GPU development. His work spans several national projects, including microprocessor development, cryptographic module validation, and high-performance network analysis tools. His expertise includes digital VLSI design, RISC-V microprocessor and GPU IP core development, secure microprocessor architectures, and SoC design. He holds a B.Tech in Electronics and Communications from the University of Kerala and a Master's in Digital Signal Processing from the University of Strathclyde, UK. He has numerous publications, a patent, and has contributed to industry technology transfers."
 }
@@ -81,7 +81,7 @@
           "name": "Prof. Virendra Singh",
           "affiliation": "Professor, Department of Electrical Engineering and Department of Computer Science & Engineering, Indian Institute of Technology Bombay",
           "role": "Speaker",
-          "photo": "images/tutorials/VirendraSingh.jpg",
+          "photo": "images/Tutorials/VirendraSingh.jpg",
           "url": "https://www.ee.iitb.ac.in/~viren/",
           "bio": "Virendra Singh is currently a professor of Electrical and Computer Science at IIT Bombay. He received the B.E. and M.E. degrees in electronics and communication engineering from the Malaviya National Institute of Technology (MNIT), Jaipur, India, in 1994 and 1996, respectively, and the Ph.D. degree in computer science and engineering from the Nara Institute of Science and Technology (NAIST), Nara, Japan, in 2005.\n\nPrior to joining IIT Bombay, he was a Faculty Member at the Supercomputer Education and Research Centre (SERC), Indian Institute of Science (IISc), Bengaluru, India, from 2007 to 2011. His research interests include high-performance computer architecture, testing and verification of high-performance processors, fault-tolerant computing, VLSI testing, design for test, formal verification of hardware designs, embedded system design, design for reliability, and CAD of VLSI Systems.\n\nHis research interests are in Cyber security, cyber physical systems, computer architecture, formal methods, VLSI testing and verification, Reinforcement Learning, adversarial learning, security of AI-based systems, blockchain technology, and hybrid quantum-HPC systems. He is an adjunct professor at various IITs and NITs.\n\nResearch Lab.: Computer Architecture and Dependable Systems Lab. (CADSL)\nCoordinator: Indo-Japanese Joint Laboratory for Intelligent Dependable Cyber Physical Systems (IDCPS)\nCoordinator: Information Security Research and Development Centre (ISRDC)\nAssociated Lab: Centre of excellence for Blockchain research\nAffiliation: Centre for Machine Intelligence and Data Science"
         }
