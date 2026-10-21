@@ -6,145 +6,191 @@ bodyClass: "homepage is-preload"
 
 <div id="page-wrapper">
 
-<section class="wrapper style2" id="intro">
+  <section class="wrapper style2" id="intro">
 
-<div class="title">Preconference Tutorials</div>
+    <div class="title">Preconference Tutorials</div>
 
-<div class="container">
+    <div class="container">
 
-{% if tutorials.enabled and tutorials.schedule.length %}
+      {% if tutorials.enabled and tutorials.schedule.length %}
 
-<h2 class="inline-cdd8ca0640">Tutorial Schedule</h2>
-<br>
+      <p>
+        The iSES 2026 Preconference Tutorials will be held
+        on <strong>13–14 December 2026</strong>.
+        The tutorial topics and speakers are listed below.
+      </p>
 
-<table>
-<thead>
-<tr>
-<th>Speaker and Designation</th>
-<th>Title</th>
-<th>Date</th>
-<th>Time</th>
-</tr>
-</thead>
+      <div style="overflow-x: auto;">
 
-<tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Speaker and Designation</th>
+              <th>Tutorial Title</th>
+            </tr>
+          </thead>
 
-{% for tutorial in tutorials.schedule %}
+          <tbody>
 
-<tr>
+            {% for tutorial in tutorials.schedule %}
 
-<td>
+            <tr>
 
-{% for speakerId in tutorial.speakers %}
+              <td>
 
-{% set speaker = people[speakerId] %}
+                {% for speaker in tutorial.speakers %}
 
-{{ speaker.name }}
-{% if speaker.affiliation %} ({{ speaker.affiliation }}){% endif %}
+                  <strong>{{ speaker.name }}</strong>
 
-{% if not loop.last %}<br>{% endif %}
+                  {% if speaker.role == "Co-presenter" %}
+                    (Co-presenter)
+                  {% endif %}
 
-{% endfor %}
+                  {% if speaker.affiliation %}
+                    <br>
+                    {{ speaker.affiliation }}
+                  {% endif %}
 
-</td>
+                  {% if not loop.last %}
+                    <br><br>
+                  {% endif %}
 
-<td>
-<a href="#{{ tutorial.id }}" class="inline-a7988c6e19">
-{{ tutorial.title }}
-</a>
-</td>
+                {% endfor %}
 
-<td>{{ tutorial.date }}</td>
+              </td>
 
-<td>{{ tutorial.time }}</td>
+              <td>
+                <a href="#{{ tutorial.id }}"
+                   class="inline-a7988c6e19">
+                  {{ tutorial.title }}
+                </a>
+              </td>
 
-</tr>
+            </tr>
 
-{% endfor %}
+            {% endfor %}
 
-</tbody>
+          </tbody>
+        </table>
 
-</table>
+      </div>
 
-</div>
+    </div>
 
-<div class="container">
+    <div class="container">
 
-{% for tutorial in tutorials.schedule %}
+      {% for tutorial in tutorials.schedule %}
 
-<div class="tutorial">
+      <div class="tutorial" style="margin-bottom: 3em;">
 
-<h2 id="{{ tutorial.id }}">
-{{ tutorial.title }}
-</h2>
+        <h2 id="{{ tutorial.id }}">
+          {{ tutorial.title }}
+        </h2>
 
-<br>
+        {% if tutorial.abstract %}
 
-<div class="speakers">
+        <div class="bio" style="margin: 1.5em 0;">
 
-{% for speakerId in tutorial.speakers %}
+          <h3>Abstract</h3>
 
-{% set speaker = people[speakerId] %}
+          <p style="white-space: pre-line;">
+            {{ tutorial.abstract }}
+          </p>
 
-<div class="speaker">
+        </div>
 
-{% if speaker.photo %}
-<img
-class="speaker-img"
-src="{{ speaker.photo }}"
-alt="{{ speaker.name }}">
-{% endif %}
+        {% endif %}
 
-<h3>{{ speaker.name }}</h3>
+        <div class="speakers">
 
-{% if speaker.affiliation %}
-<p>{{ speaker.affiliation }}</p>
-{% endif %}
+          {% for speaker in tutorial.speakers %}
 
-{% if speaker.url %}
-<p>
-<a href="{{ speaker.url }}" target="_blank">
-View Profile
-</a>
-</p>
-{% endif %}
+          <div class="speaker"
+               style="margin: 2em 0;">
 
-</div>
+            {% if speaker.photo %}
 
-{% endfor %}
+            <img
+              class="speaker-img"
+              src="{{ speaker.photo }}"
+              alt="Photograph of {{ speaker.name }}"
+              loading="lazy"
+              style="
+                width: 160px;
+                height: 180px;
+                object-fit: cover;
+                float: left;
+                margin: 0 24px 20px 0;
+                border-radius: 5px;
+              ">
 
-</div>
+            {% endif %}
 
-{% if tutorial.abstract %}
-<div class="bio">
+            <div class="speaker-info">
 
-<h4>Abstract</h4>
+              <h3>{{ speaker.name }}</h3>
 
-<p>
-{{ tutorial.abstract }}
-</p>
+              {% if speaker.role %}
+              <p>
+                <strong>{{ speaker.role }}</strong>
+              </p>
+              {% endif %}
 
-</div>
-{% endif %}
+              {% if speaker.affiliation %}
+              <p>{{ speaker.affiliation }}</p>
+              {% endif %}
 
-</div>
+              {% if speaker.url %}
+              <p>
+                <a href="{{ speaker.url }}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  View Profile
+                </a>
+              </p>
+              {% endif %}
 
-<hr>
+              {% if speaker.bio %}
 
-{% endfor %}
+              <div class="bio">
 
-{% else %}
+                <h4>Biography</h4>
 
-<h2>Will be announced soon.</h2>
+                <p style="white-space: pre-line; text-align: justify;">
+                  {{ speaker.bio }}
+                </p>
 
-{% endif %}
+              </div>
 
-</div>
+              {% endif %}
 
-</section>
+            </div>
 
-<button id="goTopBtn" onclick="scrollToTop()" title="Go to Top">
-Go to Top
-</button>
+            <div style="clear: both;"></div>
+
+          </div>
+
+          {% endfor %}
+
+        </div>
+
+      </div>
+
+      <hr>
+
+      {% endfor %}
+
+    </div>
+
+    {% else %}
+
+    <div class="container">
+      <h2>Will be announced soon.</h2>
+    </div>
+
+    {% endif %}
+
+  </section>
+
 
 </div>
