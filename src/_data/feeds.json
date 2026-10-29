@@ -1,6 +1,11 @@
 {
   "announcements": [
-    
+    {
+  "date": "2026-10-28",
+  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 5th November 2026. Register now!",
+  "url": "/iSES_2026_Website/register.html",
+  "tag": "Registration"
+},
 {
   "date": "2026-10-20",
   "text": "📢 iSES 2026 Preconference Tutorials announced for 13–14 December 2026. View topics and speakers.",
@@ -15,12 +20,7 @@
   "url": "https://forms.gle/U4xVbLPVUG3aaLQH6",
   "tag": "Accommodation"
 },
-{
-  "date": "2026-10-14",
-  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 25th October 2026. Register now!",
-  "url": "/iSES_2026_Website/register.html",
-  "tag": "Registration"
-},
+
     {
   "date": "2026-10-09",
   "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
@@ -53,6 +53,13 @@
 }
   ],
   "important": [
+
+    {
+  "date": "2026-10-28",
+  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 5th November 2026. Register now!",
+  "url": "/iSES_2026_Website/register.html",
+  "tag": "Registration"
+},
     
 
 {
@@ -68,14 +75,7 @@
   "url": "https://forms.gle/U4xVbLPVUG3aaLQH6",
   "tag": "Accommodation"
 },
-{
-  "date": "2026-10-14",
-  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 25th October 2026. Register now!",
-  "url": "/iSES_2026_Website/register.html",
-  "tag": "Registration"
-}
 
-,
     {
   "date": "2026-10-09",
   "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
