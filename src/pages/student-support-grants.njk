@@ -13,7 +13,8 @@ bodyClass: "homepage is-preload"
 <div class="container">
 
 <p class="inline-7d27179924">
-  A limited number of Student Travel Support Grants are available for those attending iSES {{ site.year }}.
+  A limited number of Student Support Grants are available for students attending iSES {{ site.year }},
+  subject to the availability of funds.
 </p>
 
 <p class="inline-7d27179924">
@@ -23,8 +24,34 @@ bodyClass: "homepage is-preload"
 </p>
 
 <p class="inline-7d27179924">
-  Please indicate the specific type of support you need: <strong>Travel, Accommodation, or Both</strong>.
-  This helps us extend support to a larger number of participants.
+  <strong>Attendance Requirement:</strong>
+  To be eligible for the Student Support Grant, 100% active participation in all tutorial sessions,
+  conference keynotes, plenary talks, and technical sessions of iSES {{ site.year }} is mandatory.
+</p>
+
+<p class="inline-7d27179924">
+  <strong>Accommodation Support:</strong>
+  Students applying for accommodation support must stay at the NIT Goa hostel to qualify
+  for the Student Accommodation Grant.
+</p>
+
+<p class="inline-7d27179924">
+  <strong>Travel Support:</strong>
+  The Student Travel Grant covers 3rd AC train fare or actual travel expenses,
+  whichever is lower, subject to submission of valid proof of travel.
+</p>
+
+<p class="inline-7d27179924">
+  Applicants must indicate the specific type of support required:
+  <strong>Travel, Accommodation, or Both</strong>.
+  This will help us extend support to a larger number of participants.
+</p>
+
+<p class="inline-7d27179924">
+  <strong>Important:</strong>
+  Submission of a Student Support Grant application does not guarantee approval or
+  sanction of the grant. All grants are subject to the availability of funds and
+  fulfillment of the eligibility requirements.
 </p>
 
 <p class="inline-7d27179924">
@@ -37,6 +64,7 @@ bodyClass: "homepage is-preload"
   with <strong>“Support Grant”</strong> in the subject.
 </p>
 
+
 <p class="inline-e70cfdfd65">
   Please submit your applications ONLY through
   {% if links.cmtPortal and links.cmtPortal != "#" %}
@@ -44,13 +72,16 @@ bodyClass: "homepage is-preload"
   {% else %}
     <strong>Microsoft CMT (Submission link will be announced)</strong>.
   {% endif %}
-  Fellowship application for student grant:
-  {% if links.supportGrantApplicationForm and links.supportGrantApplicationForm != "#" %}
-    <a href="{{ links.supportGrantApplicationForm }}" class="inline-f479d19ba2">Application</a>.
-  {% else %}
-    <strong>(Application form will be posted here)</strong>.
-  {% endif %}
+
+  Student Support Grant Application Form:
+  <a href="{{ site.basePath }}{{ pdfs.ises_2026_student_support_grant_form }}"
+     target="_blank"
+     rel="noopener"
+     class="inline-f479d19ba2">
+    Download Application Form (PDF)
+  </a>.
 </p>
+
 
 <p class="inline-7d27179924">
   Welcome to iSES {{ site.year }}.
