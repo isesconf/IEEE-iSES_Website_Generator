@@ -20,10 +20,22 @@
       "logo": "/images/sponsors/iete.png",
       "placeholder": "IETE"
     }
+    
   ],
   
 "our_sponsors": [
-
+  {
+    "name": "Anusandhan National Research Foundation (ANRF)",
+    "href": "https://www.anrf.gov.in/",
+    "logo": "/images/sponsors/ANRF.png",
+    "placeholder": "ANRF"
+  },
+  {
+    "name": "Ministry of Electronics and Information Technology (MeitY)",
+    "href": "https://www.meity.gov.in/",
+    "logo": "/images/sponsors/MEITY.jpg",
+    "placeholder": "MeitY"
+  }
 ],
 
 "sponsorship_contact": {
