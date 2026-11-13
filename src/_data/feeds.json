@@ -1,8 +1,8 @@
 {
   "announcements": [
     {
-  "date": "2026-10-28",
-  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 5th November 2026. Register now!",
+  "date": "2026-11-12",
+  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 15th November 2026. Register now!",
   "url": "/iSES_2026_Website/register.html",
   "tag": "Registration"
 },
@@ -13,14 +13,7 @@
   "tag": "Tutorials"
 }
 ,
-    {
-  
-  "date": "2026-10-14",
-  "text": "🏨 Student hostel accommodation available at NIT Goa. Apply by 30th October 2026.",
-  "url": "https://forms.gle/U4xVbLPVUG3aaLQH6",
-  "tag": "Accommodation"
-},
-
+   
     {
   "date": "2026-10-09",
   "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
@@ -33,12 +26,7 @@
   "url": "/iSES_2026_Website/call-for-contributions.html",
   "tag": "Update"
 },
-    {
-  "date": "2026-10-08",
-  "text": "Camera-ready submission link is now available",
-  "url": "/iSES_2026_Website/submission-link.html",
-  "tag": "Update"
-}, 
+    
     {
   "date": "2026-10-05",
   "text": "Camera-ready submission guidelines are now available",
@@ -54,17 +42,16 @@
   ],
   "important": [
     {
+  "date": "2026-11-12",
+  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 15th November 2026. Register now!",
+  "url": "/iSES_2026_Website/register.html",
+  "tag": "Registration"
+},
+    {
   "date": "2026-11-10",
   "text": "📢 Accomodation Requests can be submitted till Nov 25th 2026",
   "url": "/iSES_2026_Website/accommodation.html",
   "tag": "Accommodation"
-},
-
-    {
-  "date": "2026-10-28",
-  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 5th November 2026. Register now!",
-  "url": "/iSES_2026_Website/register.html",
-  "tag": "Registration"
 },
     
 

@@ -1,7 +1,8 @@
 {
   "deadlines": {
-    "authorRegistrationDisplay": "5th November 2026",
-    "authorRegistrationShort": "05-NOV-2026"
+    "authorRegistrationDisplay": "15th November 2026",
+    "authorRegistrationShort": "15-NOV-2026",
+    "registrationClosingDate": "24th November 2026"
   },
   "fees": {
     "outsideIndiaUSD": {
