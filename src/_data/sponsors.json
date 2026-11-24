@@ -22,7 +22,13 @@
       "href": "https://www.meity.gov.in/",
       "logo": "/images/sponsors/MEITY.jpg",
       "placeholder": "MeitY"
-    }
+    },
+    {
+  "name": "Council of Scientific and Industrial Research (CSIR)",
+  "href": "https://www.csir.res.in/",
+  "logo": "/images/sponsors/CSIR.jpg",
+  "placeholder": "CSIR"
+}
   ],
   "sponsorship_contact": {
     "email": "ises2026@nitgoa.ac.in",

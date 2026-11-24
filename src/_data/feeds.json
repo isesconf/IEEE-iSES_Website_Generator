@@ -1,97 +1,90 @@
 {
   "announcements": [
     {
-  "date": "2026-11-12",
-  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 15th November 2026. Register now!",
-  "url": "/iSES_2026_Website/register.html",
-  "tag": "Registration"
-},
-{
-  "date": "2026-10-20",
-  "text": "📢 iSES 2026 Preconference Tutorials announced for 13–14 December 2026. View topics and speakers.",
-  "url": "https://isesconf.github.io/iSES_2026_Website/preconference-tutorials.html",
-  "tag": "Tutorials"
-}
-,
-   
+      "date": "2026-11-24",
+      "text": "📢 iSES 2026 Technical Program Schedule is now available. View the detailed schedule, technical tracks, special sessions, and paper IDs.",
+      "url": "/iSES_2026_Website/program-schedule.html",
+      "tag": "Program"
+    },
     {
-  "date": "2026-10-09",
-  "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
-  "url": "https://forms.gle/2X3peZLWazerKiHp6",
-  "tag": "Registration"
-},
+      "date": "2026-11-24",
+      "text": "📊 iSES 2026 Presentation Template (PPTX) is now available for authors.",
+      "url": "/iSES_2026_Website/program-schedule.html",
+      "tag": "Authors"
+    },
     {
-  "date": "2026-10-05",
-  "text": "📢 Call for Papers – Special Sessions: Submit your paper to iSES 2026 Special Sessions by October 20, 2026.",
-  "url": "/iSES_2026_Website/call-for-contributions.html",
-  "tag": "Update"
-},
-    
+      "date": "2026-11-24",
+      "text": "📢 Detailed Pre-Conference Tutorial Schedule for 13–14 December 2026 is now available. View tutorial topics, speakers, and timings.",
+      "url": "/iSES_2026_Website/program-schedule.html#pre-conference-tutorials",
+      "tag": "Tutorials"
+    },
     {
-  "date": "2026-10-05",
-  "text": "Camera-ready submission guidelines are now available",
-  "url": "/iSES_2026_Website/camera-ready.html",
-  "tag": "Update"
-},
-{
-  "date": "2026-10-05",
-  "text": "Camera-ready submission link is now available",
-  "url": "/iSES_2026_Website/submission-link.html",
-  "tag": "Update"
-}
+      "date": "2026-11-10",
+      "text": "🏨 Accommodation requests can be submitted until 25 November 2026.",
+      "url": "/iSES_2026_Website/accommodation.html",
+      "tag": "Accommodation"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "📝 iSES 2026 registration form is available. Complete your conference registration.",
+      "url": "https://forms.gle/2X3peZLWazerKiHp6",
+      "tag": "Registration"
+    },
+    {
+      "date": "2026-10-05",
+      "text": "Camera-ready submission guidelines are available.",
+      "url": "/iSES_2026_Website/camera-ready.html",
+      "tag": "Authors"
+    },
+    {
+      "date": "2026-10-05",
+      "text": "Camera-ready submission link is available.",
+      "url": "/iSES_2026_Website/submission-link.html",
+      "tag": "Authors"
+    }
   ],
   "important": [
     {
-  "date": "2026-11-12",
-  "text": "📢 iSES 2026 Early Bird Registration Deadline Extended to 15th November 2026. Register now!",
-  "url": "/iSES_2026_Website/register.html",
-  "tag": "Registration"
-},
+      "date": "2026-11-24",
+      "text": "📢 Technical Program Schedule: 15–17 December 2026.",
+      "url": "/iSES_2026_Website/program-schedule.html",
+      "tag": "Program"
+    },
     {
-  "date": "2026-11-10",
-  "text": "📢 Accomodation Requests can be submitted till Nov 25th 2026",
-  "url": "/iSES_2026_Website/accommodation.html",
-  "tag": "Accommodation"
-},
-    
-
-{
-  "date": "2026-10-20",
-  "text": "📢 iSES 2026 Preconference Tutorials announced for 13–14 December 2026. View topics and speakers.",
-  "url": "https://isesconf.github.io/iSES_2026_Website/preconference-tutorials.html",
-  "tag": "Tutorials"
-}
-,
-{
-  "date": "2026-10-14",
-  "text": "🏨 Student hostel accommodation available at NIT Goa. Apply by 30th October 2026.",
-  "url": "https://forms.gle/U4xVbLPVUG3aaLQH6",
-  "tag": "Accommodation"
-},
-
+      "date": "2026-11-24",
+      "text": "📊 Download the iSES 2026 Presentation Template (PPTX).",
+      "url": "/iSES_2026_Website/program-schedule.html",
+      "tag": "Authors"
+    },
     {
-  "date": "2026-10-09",
-  "text": "📝 iSES 2026 Registration Form is now available. Fill up the registration form here.",
-  "url": "https://forms.gle/2X3peZLWazerKiHp6",
-  "tag": "Registration"
-},
+      "date": "2026-11-24",
+      "text": "📢 Pre-Conference Tutorials: 13–14 December 2026. View the detailed schedule.",
+      "url": "/iSES_2026_Website/program-schedule.html#pre-conference-tutorials",
+      "tag": "Tutorials"
+    },
     {
-  "date": "2026-10-05",
-  "text": "📢 Call for Papers – Special Sessions: Submit your paper to iSES 2026 Special Sessions by October 20, 2026.",
-  "url": "/iSES_2026_Website/call-for-contributions.html",
-  "tag": "Update"
-},
+      "date": "2026-11-10",
+      "text": "🏨 Accommodation request deadline: 25 November 2026.",
+      "url": "/iSES_2026_Website/accommodation.html",
+      "tag": "Accommodation"
+    },
     {
-  "date": "2026-10-05",
-  "text": "Camera-ready submission guidelines are now available",
-  "url": "/iSES_2026_Website/camera-ready.html",
-  "tag": "Update"
-}, 
-{
-  "date": "2026-10-05",
-  "text": "Camera-ready submission link is now available",
-  "url": "/iSES_2026_Website/submission-link.html",
-  "tag": "Update"
-}
+      "date": "2026-10-09",
+      "text": "📝 Register for iSES 2026.",
+      "url": "/iSES_2026_Website/register.html",
+      "tag": "Registration"
+    },
+    {
+      "date": "2026-10-05",
+      "text": "Camera-ready submission guidelines for authors.",
+      "url": "/iSES_2026_Website/camera-ready.html",
+      "tag": "Authors"
+    },
+    {
+      "date": "2026-10-05",
+      "text": "Camera-ready submission portal.",
+      "url": "/iSES_2026_Website/submission-link.html",
+      "tag": "Authors"
+    }
   ]
 }

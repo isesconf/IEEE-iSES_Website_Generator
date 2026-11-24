@@ -5,6 +5,7 @@
   "supportGrantEmail": "ises2026@nitgoa.ac.in",
   "supportGrantApplicationForm": "",
   "facultyGrantApplicationForm": "",
+  "presentationTemplate": "/images/iSES2026_Presentation_Template.pptx",
   "templates": {
     "ieeeManuscript": "https://www.ieee.org/conferences/publishing/templates.html"
   },

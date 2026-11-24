@@ -5,8 +5,8 @@ bodyClass: "homepage is-preload"
 ---
 
 <div id="page-wrapper">
-<!-- Header -->
 
+<!-- Header -->
 <section class="wrapper style2" id="intro">
   <div class="title">Program Schedule</div>
 </section>
@@ -14,68 +14,403 @@ bodyClass: "homepage is-preload"
 <section class="wrapper schedule-wrap">
   <div class="container">
 
-    <p class="inline-deaf6481e1">
-      The detailed program schedule for <strong>iSES 2026</strong> will be published soon.
+    <!-- Introduction -->
+    <div class="program-intro">
+
+    </div>
+    <!-- Presentation Template -->
+{% if links.presentationTemplate
+   and links.presentationTemplate != ""
+   and links.presentationTemplate != "#" %}
+
+  <div class="presentation-template-box">
+
+    <h3>Presentation Template</h3>
+
+    <p>
+      Authors are requested to use the following presentation
+      template when preparing their presentations for iSES {{ site.year }}.
     </p>
 
-    <p class="inline-93b7c4b42e">
-      This page will be updated after finalization of tutorials, keynotes, technical sessions, and special events.
-    </p>
+    <a href="{{ site.basePath }}{{ links.presentationTemplate }}"
+       class="presentation-download"
+       download>
+      Download Presentation Template (PPTX)
+    </a>
 
-    <br/>
+  </div>
 
-    <div class="notice-box inline-dd04992587">
-      <h2 class="inline-8ae97b1536">Schedule Status</h2>
-      <br/>
-      <ul class="inline-308562d4cf">
-        <li>Pre-Conference Tutorials (PCT): <strong>To be announced</strong></li>
-        <li>Conference Days (Technical Sessions / Keynotes / Panels): <strong>To be announced</strong></li>
-        <li>Banquet / Networking Events: <strong>To be announced</strong></li>
-      </ul>
-      <p class="inline-e396ab9664">
-        <strong>Note:</strong> Please check this page regularly for updates.
+{% endif %}
+    <!-- Quick Navigation -->
+    <nav class="program-navigation"
+         aria-label="Program schedule navigation">
+
+      <a href="#pre-conference-tutorials">
+        Pre-Conference Tutorials
+      </a>
+
+      {% for day in schedule.conference %}
+        <a href="#conference-day-{{ loop.index }}">
+          {{ day.day }} – {{ day.date }}
+        </a>
+      {% endfor %}
+
+    </nav>
+
+
+    <!-- ======================================== -->
+    <!-- PRE-CONFERENCE TUTORIALS                  -->
+    <!-- ======================================== -->
+
+    <div class="program-section"
+         id="pre-conference-tutorials">
+
+      <h2 class="program-section-heading">
+        Pre-Conference Tutorials
+      </h2>
+
+      <p class="program-section-subheading">
+        13–14 December 2026
       </p>
+
+      {% for tutorialDay in schedule.tutorials %}
+
+        <div class="schedule-table-wrapper">
+
+          <table class="schedule-table tutorial-schedule-table"
+                 aria-label="Tutorial schedule for {{ tutorialDay.date }}">
+
+            <thead>
+
+              <tr>
+                <th class="header-row-1" colspan="3">
+                  {{ tutorialDay.day }},
+                  {{ tutorialDay.date }}
+                </th>
+              </tr>
+
+              <tr>
+                <th class="time-header" scope="col">
+                  Time
+                </th>
+
+                <th class="room-header" scope="col">
+                  Expert / Speaker
+                </th>
+
+                <th class="room-header" scope="col">
+                  Tutorial Title
+                </th>
+              </tr>
+
+            </thead>
+
+            <tbody>
+
+              {% for tutorial in tutorialDay.sessions %}
+
+                <tr>
+
+                  <td class="time-cell tutorial-time">
+                    {{ tutorial.time }}
+                  </td>
+
+                  <td class="tutorial-speakers">
+
+                    {% for speaker in tutorial.speakers %}
+
+                      <div class="tutorial-speaker">
+
+                        <strong class="speaker-name">
+                          {{ speaker.name }}
+                        </strong>
+
+                        <div class="speaker-designation">
+                          {{ speaker.designation }}
+                        </div>
+
+                        <div class="speaker-affiliation">
+                          {{ speaker.affiliation }}
+                        </div>
+
+                      </div>
+
+                    {% endfor %}
+
+                  </td>
+
+                  <td class="tutorial-title">
+                    {{ tutorial.title }}
+                  </td>
+
+                </tr>
+
+              {% endfor %}
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+      {% endfor %}
+
     </div>
 
-    <br/>
 
-    <!-- Optional placeholder table (keeps your schedule-table styling) -->
-    <table class="schedule-table">
-      <tr>
-        <td class="header-row-1" colspan="3">
-          Program for 2026 International Symposium on Smart Electronic Systems (iSES)
-        </td>
-      </tr>
-      <tr>
-        <td class="header-row-2" colspan="3">
-          Brief Program Schedule (Day-wise) — Coming Soon
-        </td>
-      </tr>
-      <tr>
-        <th class="time-header">Day</th>
-        <th class="room-header" colspan="2">Details</th>
-      </tr>
+    <!-- ======================================== -->
+    <!-- TECHNICAL PROGRAM                        -->
+    <!-- ======================================== -->
 
-      <tr>
-        <td class="time-cell">Pre-Conference Tutorials</td>
-        <td class="room-cell" colspan="2"><span class="blue-italic">To be announced</span></td>
-      </tr>
+    <div class="program-section"
+         id="technical-program">
 
-      <tr>
-        <td class="time-cell">Conference Day 1</td>
-        <td class="room-cell" colspan="2"><span class="blue-italic">To be announced</span></td>
-      </tr>
+      <h2 class="program-section-heading">
+        Technical Program Schedule
+      </h2>
 
-      <tr>
-        <td class="time-cell">Conference Day 2</td>
-        <td class="room-cell" colspan="2"><span class="blue-italic">To be announced</span></td>
-      </tr>
+      <p class="program-section-subheading">
+        15–17 December 2026
+      </p>
 
-      <tr>
-        <td class="time-cell">Conference Day 3</td>
-        <td class="room-cell" colspan="2"><span class="blue-italic">To be announced</span></td>
-      </tr>
-    </table>
+      <!-- Schedule Legend -->
+      <div class="program-legend">
+
+        <span class="legend-item">
+          <span class="legend-color legend-tt"></span>
+          <strong>TT:</strong> Technical Track
+        </span>
+
+        <span class="legend-item">
+          <span class="legend-color legend-ss"></span>
+          <strong>SS:</strong> Special Session
+        </span>
+
+        <span class="legend-item">
+          <span class="legend-color legend-student"></span>
+          Student Papers
+        </span>
+
+        <span class="legend-item">
+          Numbers indicate Paper IDs
+        </span>
+
+      </div>
+
+
+      {% for day in schedule.conference %}
+
+        <div class="conference-day"
+             id="conference-day-{{ loop.index }}">
+
+          <div class="schedule-table-wrapper">
+
+            <table class="schedule-table technical-schedule-table"
+                   aria-label="Technical program for {{ day.date }}">
+
+              <thead>
+
+                <!-- Day Header -->
+                <tr>
+                  <th class="header-row-1"
+                      colspan="{{ schedule.rooms | length + 1 }}">
+
+                    {{ day.day }} –
+                    {{ day.weekday }},
+                    {{ day.date }}
+
+                  </th>
+                </tr>
+
+                <!-- Room Header -->
+                <tr>
+
+                  <th class="time-header" scope="col">
+                    Time / Session
+                  </th>
+
+                  {% for room in schedule.rooms %}
+
+                    <th class="room-header room-header-{{ loop.index }}"
+                        scope="col">
+
+                      <strong>{{ room.name }}</strong>
+
+                      <span class="room-venue">
+                        {{ room.venue }}
+                      </span>
+
+                    </th>
+
+                  {% endfor %}
+
+                </tr>
+
+              </thead>
+
+
+              <tbody>
+
+                {% for event in day.events %}
+
+                  <!-- Common Events -->
+                  {% if event.type == "common" %}
+
+                    <tr class="common-event-row event-{{ event.category }}">
+
+                      <th class="time-cell" scope="row">
+                        {{ event.time }}
+                      </th>
+
+                      <td class="common-event-cell"
+                          colspan="{{ schedule.rooms | length }}">
+
+                        {{ event.title }}
+
+                      </td>
+
+                    </tr>
+
+
+                  <!-- Parallel Technical Sessions -->
+                  {% elif event.type == "parallel" %}
+
+                    <tr class="parallel-session-row">
+
+                      <th class="time-cell session-time-cell"
+                          scope="row">
+
+                        <strong class="session-name">
+                          {{ event.name }}
+                        </strong>
+
+                        <span class="session-time">
+                          {{ event.time }}
+                        </span>
+
+                      </th>
+
+
+                      {% for session in event.sessions %}
+
+                        {% if session %}
+
+                          <td class="room-cell session-cell session-{{ session.type | lower }}">
+
+                            {% if session.type == "TT" %}
+
+                              <span class="session-type">
+                                Technical Track
+                              </span>
+
+                              {% if session.track %}
+
+                                <div class="track-title">
+
+                                  {{ schedule.tracks[session.track] }}
+
+                                  <strong>
+                                    ({{ session.track }})
+                                  </strong>
+
+                                </div>
+
+                              {% else %}
+
+                                <div class="track-title">
+                                  Technical Track
+                                </div>
+
+                              {% endif %}
+
+
+                            {% elif session.type == "SS" %}
+
+                              <span class="session-type">
+                                Special Session
+                              </span>
+
+                              <div class="track-title">
+                                {{ session.title }}
+                              </div>
+
+
+                            {% else %}
+
+                              <div class="track-title">
+                                {{ session.title }}
+                              </div>
+
+                            {% endif %}
+
+
+                            {% if session.papers and session.papers.length %}
+
+                              <div class="paper-ids">
+
+                                <span class="paper-label">
+                                  Paper IDs:
+                                </span>
+
+                                {{ session.papers | join(", ") }}
+
+                              </div>
+
+                            {% endif %}
+
+                          </td>
+
+                        {% else %}
+
+                          <td class="room-cell empty-session">
+                            —
+                          </td>
+
+                        {% endif %}
+
+                      {% endfor %}
+
+                    </tr>
+
+                  {% endif %}
+
+                {% endfor %}
+
+              </tbody>
+
+            </table>
+
+          </div>
+
+          <div class="program-back-top">
+            <a href="#intro">Back to top &uarr;</a>
+          </div>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+
+    <!-- ======================================== -->
+    <!-- PROGRAM NOTE                             -->
+    <!-- ======================================== -->
+
+    <div class="notice-box program-note">
+
+      <p>
+        <strong>Note:</strong>
+        The program schedule is subject to change.
+        Participants are requested to check this page
+        regularly for the latest updates.
+      </p>
+
+      <p>
+        All timings are in Indian Standard Time (IST).
+      </p>
+
+    </div>
 
   </div>
 </section>

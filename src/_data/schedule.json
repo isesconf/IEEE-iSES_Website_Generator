@@ -1,0 +1,408 @@
+
+{
+  "tutorials": [
+    {
+      "date": "13 December 2026",
+      "day": "Sunday",
+      "sessions": [
+        {
+          "time": "10:00 AM – 1:00 PM",
+          "title": "Brain–Computer Interfaces for Smart Healthcare: Technologies, AI, and Emerging Applications",
+          "speakers": [
+            {
+              "name": "Dr. Amit M. Joshi",
+              "designation": "Associate Professor",
+              "affiliation": "Department of Electronics and Communication Engineering, MNIT Jaipur"
+            }
+          ]
+        },
+        {
+          "time": "2:00 PM – 5:00 PM",
+          "title": "Dynamics on Marine Robotics",
+          "speakers": [
+            {
+              "name": "Dr. Pramod Kumar Maurya",
+              "designation": "Scientist F",
+              "affiliation": "CSIR-National Institute of Oceanography (NIO), Goa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "14 December 2026",
+      "day": "Monday",
+      "sessions": [
+        {
+          "time": "10:00 AM – 1:00 PM",
+          "title": "Efficient DFT Implementation for Modern VLSI SoCs – From JTAG / Boundary Scan and IJTAG to Scan Insertion, ATPG, Test Compression and Memory BIST",
+          "speakers": [
+            {
+              "name": "Shri Venkata Reddy Kolagatla",
+              "designation": "Scientist-D",
+              "affiliation": "Centre for Development of Advanced Computing (C-DAC), Bangalore"
+            },
+            {
+              "name": "Shri Mithun C Sriram",
+              "designation": "Co-presenter",
+              "affiliation": "C-DAC, Bangalore"
+            },
+            {
+              "name": "Shri Vivian Desalphine",
+              "designation": "Scientist-F, Co-presenter",
+              "affiliation": "C-DAC, Bangalore"
+            }
+          ]
+        },
+        {
+          "time": "10:00 AM – 1:00 PM",
+          "title": "Inserting Intrinsic PUF-Based Authentication Primitives in RISC-V and NoC-Based SoCs",
+          "speakers": [
+            {
+              "name": "Prof. Sujay Deb",
+              "designation": "Institute Chair Professor",
+              "affiliation": "Department of ECE & CSE, Indraprastha Institute of Information Technology (IIIT Delhi)"
+            }
+          ]
+        },
+        {
+          "time": "2:00 PM – 5:00 PM",
+          "title": "Cyber Security, Computer Architecture, Processor Architecture & Micro-Architecture, Memory System Design, Reconfigurable Computing",
+          "speakers": [
+            {
+              "name": "Prof. Virendra Singh",
+              "designation": "Professor",
+              "affiliation": "Department of Electrical Engineering and Department of Computer Science & Engineering, IIT Bombay"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "tracks": {
+    "ERS": "Energy-Efficient, Reliable VLSI Systems",
+    "AIR": "AI, Robotics and Automation",
+    "NVS": "Nanoelectronic VLSI and Sensor Systems",
+    "IoT": "Internet of Things and Consumer Electronics",
+    "SIP": "Secure Information Processing",
+    "VIS": "Vehicular Intelligent Systems"
+  },
+
+  "rooms": [
+    {
+      "name": "Room 1",
+      "venue": "Gyan Mandir 14"
+    },
+    {
+      "name": "Room 2",
+      "venue": "Gyan Mandir"
+    },
+    {
+      "name": "Room 3",
+      "venue": "Gyan Mandir"
+    },
+    {
+      "name": "Room 4",
+      "venue": "Gyan Mandir"
+    },
+    {
+      "name": "Room 5",
+      "venue": "Gyan Mandir"
+    }
+  ],
+
+  "conference": [
+    {
+      "day": "Day 1",
+      "date": "15 December 2026",
+      "weekday": "Tuesday",
+      "events": [
+        {
+          "type": "common",
+          "time": "8:15 AM – 9:00 AM",
+          "title": "Registration",
+          "category": "registration"
+        },
+        {
+          "type": "common",
+          "time": "9:00 AM – 10:15 AM",
+          "title": "Inaugural Ceremony",
+          "category": "ceremony"
+        },
+        {
+          "type": "common",
+          "time": "10:30 AM – 12:00 Noon",
+          "title": "Tea & Keynote Session",
+          "category": "keynote"
+        },
+        {
+          "type": "parallel",
+          "name": "Session I",
+          "time": "Pre-lunch Session",
+          "sessions": [
+            {
+              "type": "TT",
+              "track": "ERS",
+              "papers": [174, 275, 304, 333, 58, 124]
+            },
+            {
+              "type": "TT",
+              "track": "AIR",
+              "papers": [293, 155, 204, 319, 303]
+            },
+            {
+              "type": "TT",
+              "track": "NVS",
+              "papers": [300, 225, 317, 393]
+            },
+            {
+              "type": "TT",
+              "track": "IoT",
+              "papers": [237, 161, 232, 242, 52, 471]
+            },
+            {
+              "type": "SS",
+              "title": "Energy-Efficient Edge AI and Intelligent Hardware for Sustainable Energy Systems",
+              "papers": [476, 492, 495, 501]
+            }
+          ]
+        },
+        {
+          "type": "common",
+          "time": "1:30 PM – 3:45 PM",
+          "title": "Lunch Break & Keynote Session",
+          "category": "keynote"
+        },
+        {
+          "type": "parallel",
+          "name": "Session II",
+          "time": "Post-lunch Session",
+          "sessions": [
+            {
+              "type": "TT",
+              "track": "ERS",
+              "papers": [44, 384, 297, 18, 31, 213]
+            },
+            {
+              "type": "TT",
+              "track": "AIR",
+              "papers": [43, 260, 301, 315, 330, 376]
+            },
+            {
+              "type": "TT",
+              "track": "SIP",
+              "papers": [50, 48, 372, 391, 310]
+            },
+            {
+              "type": "TT",
+              "track": "IoT",
+              "papers": [66, 277, 292, 302, 362, 499]
+            },
+            {
+              "type": "SS",
+              "title": "Advanced Intelligent Technologies for Next-Generation Smart Healthcare Systems",
+              "papers": [321, 470, 443, 487, 486, 478, 484]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Day 2",
+      "date": "16 December 2026",
+      "weekday": "Wednesday",
+      "events": [
+        {
+          "type": "parallel",
+          "name": "Session III",
+          "time": "8:30 AM – 10:00 AM",
+          "sessions": [
+            {
+              "type": "TT",
+              "track": "SIP",
+              "papers": [5, 358, 113, 236, 251, 360]
+            },
+            {
+              "type": "TT",
+              "track": "AIR",
+              "papers": [271, 345, 328, 288, 176, 308]
+            },
+            {
+              "type": "TT",
+              "track": "ERS",
+              "papers": [12, 371, 377, 186, 367, 296]
+            },
+            {
+              "type": "TT",
+              "track": "ERS",
+              "papers": [49, 289, 298, 299, 338, 195]
+            },
+            {
+              "type": "SS",
+              "title": "Hardware-Assisted Security for Smart Electronics & Blockchain-Enabled Secure, Trustworthy, and Decentralized Smart Systems",
+              "papers": [496, 498, 494, 479, 466, 493, 425]
+            }
+          ]
+        },
+        {
+          "type": "common",
+          "time": "10:00 AM – 11:45 AM",
+          "title": "Tea & Keynote Session",
+          "category": "keynote"
+        },
+        {
+          "type": "parallel",
+          "name": "Session IV",
+          "time": "Pre-lunch Session",
+          "sessions": [
+            {
+              "type": "TT",
+              "track": "NVS",
+              "papers": [65, 284, 285, 390, 68, 366]
+            },
+            {
+              "type": "TT",
+              "track": "AIR",
+              "papers": [129, 353, 389, 39, 148, 15]
+            },
+            {
+              "type": "TT",
+              "track": "ERS",
+              "papers": [386, 256, 307, 37, 243, 363]
+            },
+            {
+              "type": "TT",
+              "track": "IoT",
+              "papers": [248, 146, 177, 250, 14, 21]
+            },
+            {
+              "type": "SS",
+              "title": "Affordable Healthcare Technologies – From Sensing to Edge Intelligence",
+              "papers": [451, 458, 453, 454, 480, 455, 475]
+            }
+          ]
+        },
+        {
+          "type": "common",
+          "time": "1:15 PM – 3:45 PM",
+          "title": "Lunch Break & Keynote Session",
+          "category": "keynote"
+        },
+        {
+          "type": "parallel",
+          "name": "Session V",
+          "time": "Post-lunch Session",
+          "sessions": [
+            {
+              "type": "TT",
+              "track": "ERS",
+              "papers": [22, 160, 202, 240, 197, 207]
+            },
+            {
+              "type": "TT",
+              "track": "AIR",
+              "papers": [8, 69, 94, 203, 17]
+            },
+            {
+              "type": "TT",
+              "track": "VIS",
+              "papers": [187, 62, 344, 312]
+            },
+            {
+              "type": "TT",
+              "track": "IoT",
+              "papers": [147, 72, 96, 180, 259, 290]
+            },
+            {
+              "type": "student",
+              "title": "RDS & SRF (Student Papers)",
+              "papers": [418, 422, 334, 262, 414]
+            }
+          ]
+        },
+        {
+          "type": "common",
+          "time": "5:30 PM – 10:00 PM",
+          "title": "Networking & Gala Dinner",
+          "category": "social"
+        }
+      ]
+    },
+    {
+      "day": "Day 3",
+      "date": "17 December 2026",
+      "weekday": "Thursday",
+      "events": [
+        {
+          "type": "parallel",
+          "name": "Session VI",
+          "time": "8:30 AM – 10:00 AM",
+          "sessions": [
+            {
+              "type": "TT",
+              "track": "ERS",
+              "papers": [41, 40, 140, 77, 79]
+            },
+            {
+              "type": "TT",
+              "track": "NVS",
+              "papers": [55, 107, 61, 57, 89]
+            },
+            {
+              "type": "TT",
+              "track": "AIR",
+              "papers": [278, 205, 385, 387, 4]
+            },
+            {
+              "type": "TT",
+              "track": "SIP",
+              "papers": [238, 273, 311, 73]
+            },
+            null
+          ]
+        },
+        {
+          "type": "common",
+          "time": "10:00 AM – 11:45 AM",
+          "title": "Tea & Keynote Session",
+          "category": "keynote"
+        },
+        {
+          "type": "parallel",
+          "name": "Session VII",
+          "time": "Pre-lunch Session",
+          "sessions": [
+            {
+              "type": "TT",
+              "track": "AIR",
+              "papers": [340, 75, 294, 295, 143]
+            },
+            {
+              "type": "TT",
+              "track": "NVS",
+              "papers": [189, 192, 279, 151]
+            },
+            {
+              "type": "TT",
+              "track": "",
+              "papers": [152, 91, 142, 164, 141, 156, 200]
+            },
+            {
+              "type": "TT",
+              "track": "IoT",
+              "papers": [254, 274, 60, 462, 286, 351]
+            },
+            null
+          ]
+        },
+        {
+          "type": "common",
+          "time": "1:15 PM onwards",
+          "title": "Lunch & Valedictory",
+          "category": "ceremony"
+        }
+      ]
+    }
+  ]
+}
